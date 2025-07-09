@@ -1,1 +1,1 @@
-# purple_src
+# Repository containing simple programs.
