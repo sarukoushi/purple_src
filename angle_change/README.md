@@ -5,9 +5,10 @@ z# Consider a robot:
    These waypoints on the graph are plotted relative to the Ox and Oy axes.
    Angles between these points and Ox axis are 0-360 degrees counterclockwise.
 3. Our robot's face on this plot points upwards vertically, it is it's 0 degrees direction.
-4. In order to obtain the needed relative bearing angle for each of the waypoints,
+   ![fig1]{angle_change/Fig1.png}
+5. In order to obtain the needed relative bearing angle for each of the waypoints,
    you have to substract the point's angle on the plot from (180*5/2) degrees and divide it by 360 degrees.
    The remainder that results from this division is the 0-360 deg angle measured clockwise from the face of the robot.
    the bearing of this robot relative to it's face direction.
-5. To get the global bearing, you add this obtained angle to the current heading of your robot and divide it with remainder by 360 deg
+6. To get the global bearing, you add this obtained angle to the current heading of your robot and divide it with remainder by 360 deg
    (% - modulo division), the remainder will be your target bearing.
