@@ -1,4 +1,4 @@
-#Consider a robot:
+# Consider a robot:
 1. It's geographic heading (angle between current meridian and the direction at which it points with it's face clockwise)
    is 0-360 degrees from meridian clockwise.
 2. The waypoints that are targets for this robot are plotted with matplotlib and numpy modules for visualization.
