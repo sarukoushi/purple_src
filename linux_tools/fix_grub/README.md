@@ -1,4 +1,4 @@
-#How I managed to fix some problem with Grub and triple boot on separate drives.
+#How I managed to fix some problem with `Grub` and triple boot on separate drives.
 ##I installed `Ubuntu 24` on drive `sda` with `btrfs`, mounted on subvolumes `@`, `@home`, `@swap`, 
   then I installed `Ubuntu 22.04.5` on drive `sdb` with `ext4`.
   And them I installed `Windows 11` on `sdc`.
