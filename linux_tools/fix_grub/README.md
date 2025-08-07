@@ -23,7 +23,7 @@ Big thanks to the author.
    * `exit`
 4. Then I couldn't unmount something so I rebooted again into `live USB`.
    Now I will revive `Grub` for `Ubuntu 24`.
-   We will now mount specific subvolume with root from `btrfs` drive
+   We will now mount specific subvolume with root directory from `btrfs` drive
    using `-o subvol=[subvolume_name]` option for `mount` command.
    * `sudo su -`
    * `mount /dev/sda2 /mnt -o subvol=@`
