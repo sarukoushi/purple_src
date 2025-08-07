@@ -1,10 +1,10 @@
 # How I managed to fix some problem with `Grub` and triple boot on separate drives.
-## I installed `Ubuntu 24` on drive `sda` with `btrfs`, mounted on subvolumes `@`, `@home`, `@swap`,
-   then I installed `Ubuntu 22.04.5` on drive `sdb` with `ext4`.
-   And them I installed `Windows 11` on `sdc`.
-   After I did it I couldn't boot into `Ubuntu 24`, `Ubuntu 22` was booting from `sda` bootable partition.
-   There was no `Ubuntu 24` entry in `Grub` boot menu or in `bios` boot menu.
-   I found nice tutorial with the fix:
+## I installed `Ubuntu 24` on drive `sda` with `btrfs`, mounted on subvolumes `@`, `@home`, `@swap`, 
+## then I installed `Ubuntu 22.04.5` on drive `sdb` with `ext4`.
+## And them I installed `Windows 11` on `sdc`.
+## After I did it I couldn't boot into `Ubuntu 24`, `Ubuntu 22` was booting from `sda` bootable partition.
+## There was no `Ubuntu 24` entry in `Grub` boot menu or in `bios` boot menu.
+## I found nice tutorial with the fix:
 
 https://youtu.be/Zr9oyWjD6IA?feature=shared
 Big thanks to the author.
